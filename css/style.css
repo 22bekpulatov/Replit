@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+    height: 140vh;
+    background: url("../img/back.jpg") no-repeat;
+    background-size: cover;
+    background-position-y: -100;
+    background-position-x: center;
+}
+.logo a img {
+    width: 50%;
+}
+.nav-item {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.nav-item li {
+    margin: 0px 10px;
+}
+.nav-item a {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+.nav-item .active {
+    background: orange;
+    padding: 8px 15px;
+}
+nav{
+    padding: 15px 0px;
+}
+.header-content {
+    padding-top: 250px;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-content-title {
+    font-size: 70px;
+    font-weight: 300;
+    text-shadow: 3px 3px 20px orange;
+}
+.line {
+    padding: 2px 90px;
+    background: orange;
+    margin: 20px 0px;
+    display: inline-block;
+}
+.header-content-info {
+    font-size: 20px;
+    line-height: 30px;
+}
+.icon i {
+    font-size: 35px;
+    margin: 15px 8px;
+}
+.icon i:hover {
+    color: orange;
+    cursor: pointer;
+}
+.section-bg {
+    background: #020204;
+    color: #fff;
+}
+.section-content h1 {
+    font-size: 80px;
+    font-weight: 300;
+    text-shadow: 3px 3px 20px orange;
+}
+.section-content span {
+    display: inline-block;
+}
+.section-content p {
+    font-size: 20px;
+}
+.section-content {
+    padding-bottom: 100px;
+}
+.section-bg .container .row .box {
+    padding: 20px 30px;
+    background: orange;
+    background-clip: content-box;
+    text-align: center;
+}
+.box p {
+    font-size: 20px;
+    padding: 15px 5px;
+}
+.contact {
+    padding: 200px 0px;
+}
+.contact h1 {
+    font-size: 80px;
+    font-weight: 300;
+    text-shadow: 3px 3px 20px orange;
+}
+.contact p {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+footer {
+    background: #333;
+    padding: 15px 0px;
+}
+.footer p {
+    font-size: 20px;
+    color: white;
+}
